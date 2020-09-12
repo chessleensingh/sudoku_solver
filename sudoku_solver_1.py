@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import numpy as np
-import pandas as pd
 import time
 
 class Sudoku_node:
@@ -197,49 +196,3 @@ values_avail_for_centers = [[1,2,3,4,5,6,7,8,9],
 start_time = time.time()
 Solver()
 print(time.time()- start_time)
-#
-#v = [[]]*9
-##v = np.any(shape=(9)) # this time reshape is for each box
-#v = list(v)
-#v[0].append([[1,2],[3]])
-#v[0].append([[3,4],[5]])
-#v[1].append([[5,6],[7]])
-#v
-#
-#vv = [[]]*9
-#vv[0].append([[[1,2],[3]]])
-#vv[0].append([[3,4],[5]])
-#vv
-#
-#a = set([1,2,3])
-#a = a.union([4])
-#print(a)
-#
-#print(arr[0][0].val_avail)
-#
-#x = {1,2,3,4,5,6,7,8,9}.difference({9, 4, 6})
-#
-#x
-#
-#val = [list([1, 4, 8, 9]), list([11, 12, 13, 14, 15, 16, 17, 18, 19, 10]),
-# list([8, 1, 3, 9]), list([9, 3, 4, 6]), list([3, 4, 6]), list([9, 3, 4]),
-# list([11, 12, 13, 14, 15, 16, 17, 18, 19, 10]), list([1, 3, 4, 5, 8]),
-# list([3, 4, 6, 8, 9])]
-#
-#for i in range(1,10):
-#    counter = [0,0,0,0,0,0,0,0,0]
-#    for lists in range(9):
-#        if i in val[lists]:
-#            counter[lists] = 1
-#
-#    print(i,sum(counter))
-#    if (sum(counter) == 1):
-#        print(counter.index(1))
-#
-#val = []
-#if (not val):
-#    print("rr")
-#
-#if (2 in [1,5,7,]):
-#    print("yes")
-#
